@@ -12,3 +12,5 @@
 .sound.playing i em:nth-child(4){animation-delay:.45s}
 @media (max-width:768px){.player-card{right:15px;top:70px;width:min(240px,68vw)}}
 @media(prefers-reduced-motion:reduce){.sound.playing i em{animation:none}}
+.player-card{display:none}
+.player-card.on{display:block}
